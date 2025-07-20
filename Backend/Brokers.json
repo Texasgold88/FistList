@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Whitepages",
+    "opt_out_url": "https://www.whitepages.com/suppression_requests",
+    "automatable": false,
+    "captcha": true,
+    "requires_email": true
+  },
+  {
+    "name": "Spokeo",
+    "opt_out_url": "https://www.spokeo.com/opt_out",
+    "automatable": true,
+    "captcha": true,
+    "requires_email": true
+  },
+  {
+    "name": "BeenVerified",
+    "opt_out_url": "https://www.beenverified.com/app/optout/search",
+    "automatable": true,
+    "captcha": true,
+    "requires_email": false
+  }
+]
